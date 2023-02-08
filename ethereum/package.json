@@ -11,13 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
     "@openzeppelin/contracts": "^4.8.1",
-    "hardhat": "^2.12.6",
-    "next": "^13.1.6"
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.6"
   },
   "dependencies": {
-    "alchemy-sdk": "^2.4.2",
-    "ethers": "^6.0.2",
-    "next": "^13.1.6"
+    "alchemy-sdk": "^2.4.2"
   }
 }

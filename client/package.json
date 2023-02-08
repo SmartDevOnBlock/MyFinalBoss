@@ -22,7 +22,6 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "next": "^13.1.6",
     "@nomiclabs/hardhat-ethers": "^2.2.2",
     "ethers": "^5.7.2"
   }
