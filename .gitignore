@@ -1,0 +1,13 @@
+ethereum/node_modules
+ethereum/.env
+ethereum/coverage
+ethereum/coverage.json
+ethereum/typechain
+ethereum/typechain-types
+
+# Hardhat files
+ethereum/cache
+ethereum/artifacts
+
+clinet/.next
+
