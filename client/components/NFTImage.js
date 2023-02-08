@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 import { useEffect, useState } from "react";
 import { Button, Segment } from "semantic-ui-react";
 import Smeshariky from "../../ethereum/artifacts/contracts/Smeshariky.sol/Smeshariky.json";
-import provider from "../../ethereum/utils/provider";
+import provider from "../utils/provider";
 import styled from "styled-components";
 
 const ImgFrame = styled.img`

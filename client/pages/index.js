@@ -4,7 +4,7 @@ import uuid from 'react-uuid';
 import { Progress, Segment } from 'semantic-ui-react';
 import Layout from '../components/Layout';
 import styled from "styled-components";
-import alchemy from '../../ethereum/utils/alchemy';
+import alchemy from '../utils/alchemy';
 import { useEffect, useState } from 'react';
 import NFTImage from '../components/NFTImage';
 
