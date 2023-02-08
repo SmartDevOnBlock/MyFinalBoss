@@ -6,6 +6,9 @@ const GOERLI_PRIVATE_KEY = "f39113af7ce801ebc0e0aa05caef943413730b09b76bb7d280dc
 
 module.exports = {
   solidity: "0.8.17",
+  paths: {
+    artifacts: './ethereum/artifacts',
+  },
   networks: {
     goerli: {
       url: `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,

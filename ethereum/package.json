@@ -10,13 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "next": "^13.1.6",
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
     "@openzeppelin/contracts": "^4.8.1",
-    "hardhat": "^2.12.6"
+    "hardhat": "^2.12.6",
+    "next": "^13.1.6"
   },
   "dependencies": {
-    "next": "^13.1.6",
-    "alchemy-sdk": "^2.4.2"
+    "alchemy-sdk": "^2.4.2",
+    "ethers": "^6.0.2",
+    "next": "^13.1.6"
   }
 }
