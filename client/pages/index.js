@@ -53,7 +53,7 @@ const [totalMinted, setTotalMinted] = useState(0);
     return ( <Layout>
         <Segment color="red">
         <h2 style={{textAlign: "center", color: "black"}}>Totally Minted</h2>
-        <h3 style={{textAlign: "center", color: "red"}}>*IMAGES are fetched from BLOCKCHAIN!Please make sure you choose GOERLI network in order to see minted NFTs!</h2>
+        <h3 style={{textAlign: "center", color: "red"}}>*IMAGES are fetched from BLOCKCHAIN!Please make sure you choose GOERLI network in order to see minted NFTs!</h3>
         <Progress value={totalMinted} total='50' progress='ratio' color='green' />
         </Segment>
         <CollectionForm inverted color="yellow">
